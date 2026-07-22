@@ -1,10 +1,15 @@
 # 🧾 App de Facturación (React + Vite)
 
+## ▶️ Cómo ejecutar el proyecto
+
+```bash
+npm install
+npm run dev
+```
+
 Proyecto realizado como práctica de un curso de **Udemy**, construido con **React** y **Vite**.
 
 La aplicación simula un sistema de facturación: muestra los datos de una factura (empresa, cliente, productos y total), permite **agregar nuevos ítems** a la factura mediante un formulario y **eliminar** ítems de la lista, recalculando el total de forma dinámica.
-
-> ⚠️ **Nota:** el `.zip` compartido solo incluye las carpetas `components`, `data` y `services`. No incluye `App.jsx`, `main.jsx`, `index.html` ni `package.json` (archivos base que genera Vite). Este README describe la app en base al código disponible; el componente `App.jsx` es quien, típicamente, orquesta el estado global (lista de ítems) y compone todos los componentes de `components/`.
 
 ---
 
@@ -149,11 +154,3 @@ El primero tiene como dependencia solo `price`, por lo que se dispara únicament
 
 ---
 
-## ▶️ Cómo ejecutar el proyecto
-
-```bash
-npm install
-npm run dev
-```
-
-> Recuerda agregar los archivos `App.jsx`, `main.jsx`, `index.html` y `package.json` si no forman parte de tu copia del proyecto, ya que son necesarios para levantar la app con Vite.
